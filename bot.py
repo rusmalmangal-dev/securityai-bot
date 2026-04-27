@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = "TELEGRAM_TOKEN"
-AI_KEY = "API_KEY"
+AI_KEY = "AI_KEY"
 
 def ask_ai(text):
     r = requests.post(
