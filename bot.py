@@ -2,8 +2,8 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "ВСТАВЬ_TELEGRAM_TOKEN"
-AI_KEY = "ВСТАВЬ_API_KEY"
+TOKEN = "TELEGRAM_TOKEN"
+AI_KEY = "API_KEY"
 
 def ask_ai(text):
     r = requests.post(
